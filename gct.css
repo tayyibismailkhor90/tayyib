@@ -1,0 +1,232 @@
+body{
+    background-color:      #226f96;
+    max-width: 1000px;
+    max-height: 3000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: absolute;
+    margin-left: 500px;
+    overflow: hidden;
+    width: 2000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#name{
+    color: aqua;
+    cursor: pointer;
+}
+nav{
+    position: absolute;
+    height: 300px;
+    display: flex;
+    margin-top: 280px;
+    
+}
+.navleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navleft img{
+    height: 150px;
+}
+.navleft p{
+    color: #ffff;
+    margin: 10px ;
+    font-size: 40px;
+}
+.navright{
+
+    justify-content: center;
+    align-items: center;
+}
+.navright i{
+color: #226f96;
+   font-size: 50px;
+   background-color: aliceblue;
+   cursor: pointer;
+}
+.navright i:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.icondiv{
+    display: flex;
+    border: 2px solid yellow;
+}
+.icondiv i{
+    margin-left: 10px;
+}
+.what{
+    display: flex;
+    margin-top: 10px;
+    color: aliceblue;
+    margin-left: 5px;
+}
+.what i{
+    color: black;
+    background-color: #226f96;
+}
+.what p{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.status{
+    width: max-content;
+   height: 70px;
+    position: absolute;
+    display: flex;
+    background-color: #ddd;
+    margin-top: 500px;
+}
+.status button{
+    cursor: pointer;
+    background:#eee ;
+    height: 50px;
+background-color: #fff;
+margin-top: 10px;
+margin-right: 10px;
+font-size: 20px;
+
+    width: 200px;
+    border: 1px solid rgb(46, 41, 41);
+ margin-left: 10px;
+}
+.Department{
+    margin-top: 20px;
+    margin-left: 10px;
+background-color: #db9e9e;
+height: 300px;
+border: 1px solid rgb(46, 41, 41);
+}
+.status .Department {
+    margin-top: 20px;
+    margin-left: 10px;
+background-color: #db9e9e;
+height: 300px;
+border: 1px solid rgb(46, 41, 41);
+}
+.status .Department button{
+height: 50px;
+background-color: #fff;
+margin-top: 20px;
+margin-right: 5px;
+font-size: 20px;
+
+}
+.home{
+    margin-left: 1000px;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+position: absolute;
+    margin-top: 2700px;
+    height: 2000px;
+    overflow: visible;
+    width: 2000px;
+}
+.home img{
+    margin: 50px;
+    border-radius: 20px;
+   
+}
+.home .imgmain img{
+    height: 300px;
+  
+}
+.home #hjjkg{
+    overflow: auto;
+    width: 1000px;
+}
+
+.maingate{
+    display: flex;
+}
+.para{
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+.para p{
+    display: flex;
+    max-width: 900px;
+    font-size: 25px;
+}
+.engineer{
+    margin-top: 4600px;
+    display: flex;
+}
+.engineer .para p{
+    display: flex;
+    max-width: 900px;
+    font-size: 25px;
+}
+.video video{
+    position: relative;
+    width: 1000px;
+border-radius: 50px;
+    margin-top: 4400px;
+}
+.mechdepart{margin-left: 400px;
+    position: absolute;
+margin-top: 2500px;
+background-color: #eee;
+
+justify-content: center;
+align-items: center;
+}
+.mechdepart .div{
+    margin-left: 50px;
+}
+.mechdepart .div h2{
+    font-size: 35px;
+    color: #c52525;
+}
+.mechdepart .div img{
+    width: 97%;
+    height: 500px;
+}
+.mechdepart .lkj{
+    margin-left: 35px;
+}
+.mechdepart .lkj  h1{
+    text-align: center;
+}
+.mechdepart .lkj p{
+    font-size: 25px;
+    max-height: 100px;
+}
+
+.mechdepart  .pics  {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.mechdepart  .pics img{
+    margin-left: 80px;
+    height: 252px;
+
+}
+.mechdepart  .pics p{
+    text-align: center;
+}
+.btns  button{
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+    background-color: #c52525;
+
+}
+.btns .depart{
+display: flex;
+}
+.hom1{
+    display: none;
+}
